@@ -10,7 +10,7 @@ public class AreaTest {
 	public void testAreaTriangolo() {
 		int base= 20;
 		int altezza = 5;
-		int valoreAtteso =51;
+		int valoreAtteso =50;
 		int valoreCalcolato = Area.areaTriangolo(base, altezza);
 		assertEquals(valoreAtteso, valoreCalcolato);
 	}
